@@ -5,13 +5,13 @@
 ![img.png](img.png)
 
 ### Technologies in usage
-###1. Spring boot
+#### 1. Spring boot
 ![img_1.png](img_1.png)
 
-###2. HTML
+#### 2. HTML
 ![img_2.png](img_2.png)
 
-###3. mySQL
+#### 3. mySQL
 ![img_3.png](img_3.png)
 
 For more information visit 
