@@ -2,8 +2,7 @@
 ## by Udara Jayasuriya
  A simple spring boot application with CRUD operations.
 ### ER diagram
-
-![](./Assignment 01 ER diagram.png)
+![img.png](img.png)
 
 ### Technologies in usage
 ###1. Spring boot
