@@ -9,12 +9,13 @@ import javax.persistence.Table;
 @Table(name = "passengers")
 public class Passenger {
     @Id
+    @Column(name="passport_number", nullable = false, length = 30)
     private String passport_number;
 
-    @Column(name = "first_name")
+    @Column(name = "first_name", nullable = false, length = 50)
     private String first_name;
 
-    @Column(name = "last_name")
+    @Column(name = "last_name", nullable = true, length = 50)
     private String last_name;
 
     @Column(name = "contact_number")

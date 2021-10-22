@@ -16,10 +16,10 @@ public class PassengerController {
     private PassengerService passengerService;
 
     //display list of passengers
-    @GetMapping("/")
-    public String viewHomePage(Model model){
+    @GetMapping("/viewPassenger")
+    public String viewPassengers(Model model){
         model.addAttribute("listPassengers", passengerService.getAllPassengers());
-        return "index";
+        return "index0";
     }
 
     @GetMapping("/showNewPassengersForm")
@@ -34,7 +34,7 @@ public class PassengerController {
     public String savePassenger(@ModelAttribute("employee") Passenger passenger) {
         //save passenger to database
         passengerService.savePassenger(passenger);
-        return "redirect:/";
+        return "redirect:/viewPassenger";
     }
 
     @GetMapping("/showFormForUpdate/{passport_number}")
@@ -51,6 +51,6 @@ public class PassengerController {
     public String deletePassenger(@PathVariable(value = "passport_number") String passport_number) {
         //call delete passport method
         this.passengerService.deletePassengerByPassportNumber(passport_number);
-        return "redirect:/";
+        return "redirect:/viewPassenger";
     }
 }
