@@ -14,3 +14,7 @@
 
 For more information visit 
 https://github.com/usfj1997/flight-reservation-system
+
+References:
+1. https://www.codejava.net/frameworks/spring-boot/spring-boot-crud-example-with-spring-mvc-spring-data-jpa-thymeleaf-hibernate-mysql
+2. https://www.javaguides.net/2020/05/spring-boot-crud-web-application-with-thymeleaf.html
