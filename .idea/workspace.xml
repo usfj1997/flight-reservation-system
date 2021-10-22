@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3117747-75dc-4662-b89c-870693c007c5" name="Changes" comment="" />
+    <list default="true" id="e3117747-75dc-4662-b89c-870693c007c5" name="Changes" comment="Initiated Flight class">
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/model/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/model/Flight.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -93,8 +97,16 @@
       <option name="presentableId" value="Default" />
       <updated>1634832330753</updated>
       <workItem from="1634832334010" duration="13783000" />
-      <workItem from="1634866907645" duration="29959000" />
+      <workItem from="1634866907645" duration="31449000" />
     </task>
+    <task id="LOCAL-00001" summary="Initiated Flight class">
+      <created>1634908544008</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634908544008</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +126,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initiated Flight class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initiated Flight class" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
