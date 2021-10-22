@@ -18,6 +18,9 @@ public class Plane {
     @Column(name = "passenger_capacity", nullable = false)
     private int passenger_capacity;
 
+    @Column(name = "flight_number")
+    private String flight_number;
+
     public String getRegistration_number() {
         return registration_number;
     }
@@ -40,5 +43,13 @@ public class Plane {
 
     public void setPassenger_capacity(int passenger_capacity) {
         this.passenger_capacity = passenger_capacity;
+    }
+
+    public String getFlight_number() {
+        return flight_number;
+    }
+
+    public void setFlight_number(String flight_number) {
+        this.flight_number = flight_number;
     }
 }

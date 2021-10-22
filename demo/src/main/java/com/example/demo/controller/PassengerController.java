@@ -31,7 +31,7 @@ public class PassengerController {
     }
 
     @PostMapping("/savePassenger")
-    public String savePassenger(@ModelAttribute("employee") Passenger passenger) {
+    public String savePassenger(@ModelAttribute("plane") Passenger passenger) {
         //save passenger to database
         passengerService.savePassenger(passenger);
         return "redirect:/viewPassenger";

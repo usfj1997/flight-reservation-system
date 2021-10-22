@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Add New Plane</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous"
+    >
+</head>
+<body>
+<div class="container">
+    <h1>Flight Reservation System</h1>
+    <hr>
+    <h2>Add Plane</h2>
+    <form action="#" th:action="@{/savePlane}" th:object="${plane}" method="post">
+        <input type="text" th:field="*{registration_number}" placeholder="Registration Number" class="form-control mb-4 col-4">
+
+        <input type="text" th:field="*{model_number}" placeholder="Model Number" class="form-control mb-4 col-4">
+
+        <input type="text" th:field="*{passenger_capacity}" placeholder="Passenger Capacity" class="form-control mb-4 col-4">
+
+        <input type="text" th:field="*{flight_number}" placeholder="Flight Number" class="form-control mb-4 col-4">
+
+        <button type="submit" class="btn btn-info col-2"> Save Plane</button>
+    </form>
+
+    <hr>
+
+    <a th:href="@{/}">Back to Home</a>
+</div>
+</body>
+</html>

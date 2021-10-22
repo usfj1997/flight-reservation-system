@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3117747-75dc-4662-b89c-870693c007c5" name="Changes" comment="Initiated Flight class">
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/model/Plane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/PlaneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/repository/PlaneRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/PlaneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/new_plane.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/update_plane.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/model/Flight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/PassengerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/PassengerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/model/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/model/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/PassengerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/PassengerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/templates/index0.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/index0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/templates/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/index1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/templates/new_ticket.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/new_ticket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/templates/update_passenger.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/update_passenger.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/example/demo/controller/PassengerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/controller/PassengerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/example/demo/service/PassengerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/service/PassengerService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -97,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634832330753</updated>
       <workItem from="1634832334010" duration="13783000" />
-      <workItem from="1634866907645" duration="31449000" />
+      <workItem from="1634866907645" duration="35293000" />
     </task>
     <task id="LOCAL-00001" summary="Initiated Flight class">
       <created>1634908544008</created>

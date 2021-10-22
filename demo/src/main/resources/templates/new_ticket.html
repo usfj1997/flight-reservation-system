@@ -15,7 +15,7 @@
     <hr>
     <h2>Issue New Ticket</h2>
     <form action="#" th:action="@{/saveTicket}" th:object="${ticket}" method="post">
-        <label th:field="*{ticket_id}"></label>
+<!--        <input type="text" th:field="*{ticket_id}" class="form-control mb-4 col-4">-->
 
         <input type="text" th:field="*{from_place}" placeholder="From" class="form-control mb-4 col-4">
 
