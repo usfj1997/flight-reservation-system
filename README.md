@@ -1,9 +1,6 @@
 # Flight Reservation System
 ## by Udara Jayasuriya
  A simple spring boot application with CRUD operations.
-### ER diagram
-![Assignment 01 ER diagram](https://user-images.githubusercontent.com/61260818/138315227-c4f8a269-ad4c-4c84-bf3d-8a50513019e3.png)
-
 
 ### Technologies in usage
 #### 1. Spring boot
